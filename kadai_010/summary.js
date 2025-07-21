@@ -10,10 +10,10 @@ $('#change-text').on('click',function(e){
     });
      $('#fade-out').on('click',function(){
 // 不透明度0にする（フェードアウトする）
-        $('#target').css('opacity',0);
+        $('#target').fadeOut();
     });
       $('#fade-in').on('click',function(){
 // 不透明度1にする（フェードインする）
-        $('#target').css('opacity',1);
+        $('#target').fadeIn();
     });
 });
